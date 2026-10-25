@@ -1,0 +1,26 @@
+so i checked this and used file command to see the file type and its a ascii file heres the result 
+
+
+bandit1@bandit:~$ file ./-
+./-: ASCII text
+
+
+
+
+
+now how to open it 
+
+
+simmmplleeee
+
+
+
+cat ./-
+
+
+. = indicating the current directory 
+
+and /- = meaning the file to open 
+
+
+The -- tells cat to stop looking for command options entirely. Anything after the -- is treated strictly as a filename, even if it starts with a dash.

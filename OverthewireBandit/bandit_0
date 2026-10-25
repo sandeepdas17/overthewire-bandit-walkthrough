@@ -1,0 +1,35 @@
+First we need to login to other computer via SSH?
+
+new to SSH? 
+
+well... SSH is Secure Shell think of it as a a network protocol that lets you securely connect to and control another computer or server over a network.
+
+The secure in SSH... Encrypts communication between your computer and the remote server.
+
+ Lets you run commands on another computer.
+
+ File transfer yeah that too  Supports secure file transfers using tools such as SCP and SFTP.
+
+ Authentication yeah we need that too so it uses passwords or SSH keys to verify your identity.
+
+
+before SSH...
+
+we had telnet well I'am not going to write about tell net much but you can read it on the web.
+
+Before SSH, administrators often used Telnet, rlogin, and rsh to manage remote computers. Someone monitoring the network could potentially capture passwords and commands.
+
+SSH was developed by Tatu Ylönen in 1995 to address these security problems by encrypting remote connections.
+
+
+so the whole exact command is :
+
+ssh username@192.168.1.100
+
+
+for our bandit otw will be 
+
+ssh bandit@bandit0@bandit.labs.overthewire.org -p 2220 
+
+so cat the readme file and voila thats the password :)
+6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
